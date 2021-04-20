@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-20T18:32:00.205Z",
+        "line": 10,
+        "name": "Ingresar cliente a tienda con credencial correcta",
+        "description": "",
+        "id": "ingresar-cliente-tienda;ingresar-cliente-a-tienda-con-credencial-correcta;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 971000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "cliente quiere ir a home tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_quiere_ir_a_home_tienda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1162000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cliente ingresa standard_user secret_sauce en home tienda correctamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 16
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 30
+                }
+              ],
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_en_home_tienda_correctamente(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cliente ingresa a tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_a_tienda()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T18:32:02.499Z",
+        "line": 11,
+        "name": "Ingresar cliente a tienda con credencial correcta",
+        "description": "",
+        "id": "ingresar-cliente-tienda;ingresar-cliente-a-tienda-con-credencial-correcta;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 357000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "cliente quiere ir a home tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_quiere_ir_a_home_tienda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1068000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cliente ingresa problem_user secret_sauce en home tienda correctamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "problem_user",
+                  "offset": 16
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 29
+                }
+              ],
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_en_home_tienda_correctamente(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cliente ingresa a tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_a_tienda()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T18:32:04.072Z",
+        "line": 12,
+        "name": "Ingresar cliente a tienda con credencial correcta",
+        "description": "",
+        "id": "ingresar-cliente-tienda;ingresar-cliente-a-tienda-con-credencial-correcta;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "cliente quiere ir a home tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_quiere_ir_a_home_tienda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6069000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "cliente ingresa performance_glitch_user secret_sauce en home tienda correctamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 16
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 40
+                }
+              ],
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_en_home_tienda_correctamente(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cliente ingresa a tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_a_tienda()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T18:32:10.369Z",
+        "line": 21,
+        "name": "Ingresar cliente a tienda con credencial incorrecta",
+        "description": "",
+        "id": "ingresar-cliente-tienda;ingresar-cliente-a-tienda-con-credencial-incorrecta;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "cliente quiere ir a home tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_quiere_ir_a_home_tienda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "cliente ingresa standard_user_01 secret_sauce en home tienda incorrectamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user_01",
+                  "offset": 16
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 33
+                }
+              ],
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_en_home_tienda_incorrectamente(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "cliente no ingresa a tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_no_ingresa_a_tienda()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T18:32:11.068Z",
+        "line": 22,
+        "name": "Ingresar cliente a tienda con credencial incorrecta",
+        "description": "",
+        "id": "ingresar-cliente-tienda;ingresar-cliente-a-tienda-con-credencial-incorrecta;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "cliente quiere ir a home tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_quiere_ir_a_home_tienda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "cliente ingresa performance_glitch_user secret_sauce_01 en home tienda incorrectamente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "performance_glitch_user",
+                  "offset": 16
+                },
+                {
+                  "val": "secret_sauce_01",
+                  "offset": 40
+                }
+              ],
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_ingresa_en_home_tienda_incorrectamente(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "cliente no ingresa a tienda",
+            "match": {
+              "location": "qa.stepdefinitions.IngresarTiendaStepDefs.cliente_no_ingresa_a_tienda()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ingresar Cliente Tienda",
+    "description": "",
+    "id": "ingresar-cliente-tienda",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/qa/features/login.feature",
+    "tags": []
+  }
+]
